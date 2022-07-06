@@ -1,0 +1,21 @@
+header {
+    text-align: center;
+    background-color: aquamarine;
+    font-size: 40px;
+    border-style: double;
+}
+
+.five-day-forecast {
+flex-wrap: wrap;
+justify-content: space-between;
+border-style: double;
+}
+
+@media screen and (max-width: 900px) {
+    .column1 {
+      width: 50%;
+      border-style: double;
+    }
+  }
+
+
